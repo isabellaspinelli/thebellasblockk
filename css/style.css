@@ -1,0 +1,120 @@
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/Raleway-Bold.ttf)
+}
+
+h1 {
+    font-family: "myFont" ;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/Raleway-Bold.ttf)
+}
+
+h3{
+    font-family: "myFont" ;
+    text-align: center;
+    letter-spacing: 0px;
+    color: rgb(87, 112, 250);
+
+}
+
+
+
+
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+h1 {
+    color: rgb(87, 112, 250); 
+    font-size: 75px;
+}
+
+strong {
+    font-weight: normal;
+}
+
+p {
+    color:blueviolet; 
+    background: #ddcbf5 ; 
+    font-weight: normal;
+    text-transform: none;
+    /* this is a comment*/ 
+    font-style: normal;
+    /* italic,norm*/ 
+    line-height: 20px;
+    text-decoration: none;
+    font-size: 12;
+}
+
+h2 {
+    color: darkviolet;
+}
+
+ul{
+    color: blueviolet;
+}
+
+body {
+    background: #edf1ff;
+}
+
+#intro {
+    color: darkblue;
+    background: #bebffa;
+    width: 300px ;
+    text-align: center;
+    
+}
+
+.new-class {
+    font-size: 9 px;
+    background: #bebffa;
+}
+
+a { 
+    font-size: 30px;
+}
+
+a:visited {
+    color: blue ;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#container {
+    background: rgb(179, 182, 255);
+    border-style: dotted;
+    border-color:  rgb(179, 223, 255);
+    border-width: 10px;
+   
+}
+
+#shape {
+    height: 200px;
+    width: 200px;
+    background: palevioletred;
+}
+
+#circle {
+    height: 200px;
+    width: 200px;
+    background: pink;
+    border-radius: 200px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
